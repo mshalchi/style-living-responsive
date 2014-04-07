@@ -736,6 +736,7 @@ margin-right: .1em;line-height: 1em;
 	.styleLiving .hero60 + div, /* social icons */
 	.styleLiving .hero60 + .social-icons, /* social icons */
 	.styleLiving .intro-sub,
+	.styleLiving .wrap.cms.latestModule .box.g12 + .box.g12,
 	.styleLiving .hero6040 .story-intro,
 	.styleLiving .creditCopyBlack {
 		display: none !important;
@@ -971,21 +972,26 @@ margin-right: .1em;line-height: 1em;
 
 	/* -------- MORE STYLE & LIVING ------------ */
 	/* ----------------------------------------- */
-	.styleLiving .banner {
+	.styleLiving .wrap.cms.latestModule{
+		width: 100%
+	}
+
+	.styleLiving .wrap.cms.latestModule .box.g12{
 		width: 90%;
 		margin: 0 5% 3em;
 		height: auto;
 	}
-	.styleLiving .banner img {
+	.styleLiving .wrap.cms.latestModule .box.g12 img {
 		display: none;
 	}
-	.styleLiving .banner a {
+	.styleLiving .wrap.cms.latestModule .box.g12 a {
 		width: 100%;
 		background-color: #000;
+		display: block;
 		text-align: center;
 		padding: 1.9em 0;
 	}
-	.styleLiving .banner a:after {
+	.styleLiving .wrap.cms.latestModule .box.g12 a:after {
 		content: "MORE STYLE AND LIVING"; 
 		color: #fff;
 		font-size: 1.5em;
